@@ -3,7 +3,7 @@
 ## where game is baseName of the export
  
 if [ ! "$1" ]; then
-    read -p 'Game name: ' index
+    read -p 'Game name: ' game
 else
     game="$1"
 fi
